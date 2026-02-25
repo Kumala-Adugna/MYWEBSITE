@@ -1,0 +1,113 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  background-color: rgb(165, 92, 184);
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+/* FORM SECTION */
+.form-section {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section input {
+  padding: 10px;
+  margin: 5px;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-section button {
+  padding: 10px 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-section button:hover {
+  background-color: #45a049;
+}
+
+/* TABLE SECTION */
+.table-section {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+button.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(165, 92, 184);
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}

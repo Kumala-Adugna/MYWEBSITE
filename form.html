@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+  <h1>Registration  form</h1>
+  <p>Welcome to this form</p>
+</header>
+    <form action="result.html" method="get">
+        <div>
+            <label for="name">Name</label>  
+            <input name="Name" type="text" placeholder="Enter Your Name" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter Your Email" id="email" required>
+
+    </div>
+        <div>
+            <label for="password">Password</label>  
+            <input name="Password" type="password" placeholder="Enter Your Password" required>
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" step="1" min="1" max="140">
+    </div>
+    <div>
+        <label for="date">Birthdate</label>
+        <input type="date" name="date" id="date" >
+    </div>
+    <div>
+        Favorite Food
+        <div>
+            <label for="banana">Banana</label>
+            <input type="checkbox" name="banana" id="banana">
+        </div>
+        <div>
+            <label for="Apple">Apple</label>
+            <input type="checkbox" name="apple" id="apple">
+        </div>
+    </div>
+    <div>
+        What is your gender?
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+    </div>
+
+
+    <div> 
+        <button type="submit"> Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+    
+    </form>
+</body>
+</html>
