@@ -10,11 +10,13 @@ header {
 }
 
 h1 {
-    color: blue;
+    color: rgb(3, 199, 29);
+   
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    
 }
