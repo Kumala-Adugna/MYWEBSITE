@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+</head>
+<body>
+
+  <h1 id="title">Website Feedback Survey</h1>
+  <p id="description">Please fill out this form to help us improve our website.</p>
+
+  <form id="survey-form">
+
+    <!-- Name -->
+    <label id="name-label" for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    <br><br>
+
+    <!-- Email -->
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <!-- Age/Number -->
+    <label id="number-label" for="number">Age:</label>
+    <input type="number" id="number" name="number" placeholder="Enter your age" min="1" max="120">
+    <br><br>
+
+    <!-- Dropdown -->
+    <label for="dropdown">How did you hear about us?</label>
+    <select id="dropdown" name="dropdown">
+      <option value="friend">Friend</option>
+      <option value="search">Search Engine</option>
+      <option value="social">Social Media</option>
+    </select>
+    <br><br>
+
+    <!-- Radio Buttons -->
+    <label>Rate our website:</label><br>
+    <input type="radio" id="excellent" name="rating" value="excellent">
+    <label for="excellent">Excellent</label><br>
+    <input type="radio" id="good" name="rating" value="good">
+    <label for="good">Good</label><br>
+    <input type="radio" id="average" name="rating" value="average">
+    <label for="average">Average</label><br><br>
+
+    <!-- Checkboxes -->
+    <label>Which features did you use? (Select all that apply)</label><br>
+    <input type="checkbox" id="feature1" name="feature1" value="search">
+    <label for="feature1">Search</label><br>
+    <input type="checkbox" id="feature2" name="feature2" value="profile">
+    <label for="feature2">Profile</label><br>
+    <input type="checkbox" id="feature3" name="feature3" value="checkout">
+    <label for="feature3">Checkout</label><br><br>
+
+    <!-- Textarea -->
+    <label for="comments">Additional Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="submit" id="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
