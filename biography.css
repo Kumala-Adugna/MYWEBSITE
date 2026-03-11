@@ -1,0 +1,102 @@
+body {
+  font: 1.2em / 1.5 system-ui;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  background-color: white;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: darkslategray;
+  border-bottom: 5px dotted purple;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  color: darkslategray;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  border: 2px solid #ccc;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-weight: bold;
+}
+/* Header flex layout for photo and name/title */
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  border: 2px solid purple;
+}
+
+.name-title h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: darkslategray;
+}
+
+.name-title .job-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: darkslategray;
+}
