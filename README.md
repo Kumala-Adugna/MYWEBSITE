@@ -20,8 +20,23 @@ MYWEBSITE/
 - Easy to expand with CSS and JS  
 - Organized folder structure for scalability
 
+This project is a simple professional biography card built using HTML and CSS.
+
+## Features
+- Profile photo
+- Personal biography
+- Contact information
+- Social media links
+
+## Learning Resources
+- The Odin Project
+- freeCodeCamp
+- CodePen Challenges
+
 ## Future Plans
 
 - Add CSS styling for layout and design  
 - Add JavaScript for dynamic functionality  
 - Deploy the site live using GitHub Pages
+# Personal Profile Card
+
